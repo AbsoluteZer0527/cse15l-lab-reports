@@ -2,6 +2,8 @@
 
 For each of the commands cd, ls, and cat, and using the workspace you created in this lab:
 ![Image](Screenshot 2024-01-10 105747.png)
+no argument: cd means change directory, when there is no argument, it goes back to the home directory.
+directory argument: 
 ![Image](Screenshot 2024-01-10 110219.png)
 ![Image](Screenshot 2024-01-10 110604.png)
 ![Image](Screenshot 2024-01-10 110722.png)
