@@ -5,7 +5,7 @@
 ![First /add-message](image.png)
 Which methods in your code are called?
 
-* The handleRequest method of the Handler class is called, including url.getPath(), url.getQuery(), query.startsWith("s="), query.contains("user="), query.split("&")[0].split("=")[1], query.split("=")[2], String.format("%s : %s\n", user, message).
+* The handleRequest method of the Handler class is called, including url.getPath() ', url.getQuery(), query.startsWith("s="), query.contains("user="), query.split("&")[0].split("=")[1], query.split("=")[2], String.format("%s : %s\n", user, message).
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 The relevant arguments and values are: 
