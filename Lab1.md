@@ -2,9 +2,9 @@
 
 ## cd:
 ![Image](Screenshot 2024-01-10 105747.png)
-> no argument: cd means change directory, when there is no argument, it goes back to the home directory.
+> no argument: cd means change directory, when there is no argument, it goes back to the home directory `/home`.
 
-> directory argument: it switches to the given working directory, in this case which is "lecture1"
+> directory argument: it switches to the given working directory, in this case the working directory is just `/home`, and since `lecture1` is an existing file in the working directory, the current working directory is changed to `/home/lecture1`.
 
 > File argument: Since we are putting a file as an argument, it result in an error message mentioning that it is not a directory.
 
