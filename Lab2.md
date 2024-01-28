@@ -19,30 +19,30 @@ How do the values of any relevant fields of the class change from this specific 
 
 With the input `/add-message?s=hello&user=Luna`: 
 
-* query: "s=hello&user=Luna"
-* message: "hello"
-* user: "Luna"
-* displayText: "Luna : hello\n"
+* `query`: "s=hello&user=Luna"
+* `message`: "hello"
+* `user`: "Luna"
+* `displayText`: "Luna : hello\n"
 
 ![Second /add-message](image-1.png)
 Which methods in your code are called?
 
-* Same as the code above,The handleRequest method of the Handler class is called.
+* Same as the code above, The `handleRequest` method of the Handler class is called.
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
-The relevant arguments and values are also same as above: 
+The relevant arguments and values are also the same as above: 
 * url, query, message, user, displayText.
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
 With the input `/add-message?s=This is the Second Message&user=Student2`: 
 
-* query: "s=This is the Second Message&user=Student2"
-* message: "This is the Second Message"
-* user: "Student2"
-* _Since the new message added to the collection of preivous messages_ displayText: 
-"Luna : hello\n Student2 : This is the Second Message\n"
+* `query`:  "s=This is the Second Message&user=Student2"
+* `message`: "This is the Second Message"
+* `user`: "Student2"
+* _Since the new message added to the collection of preivous messages_ `displayText`: 
+"Luna : hello\nStudent2 : This is the Second Message\n"
 
 ## Part 2
 ### The absolute path to the private key
@@ -51,7 +51,7 @@ With the input `/add-message?s=This is the Second Message&user=Student2`:
 
 ### The absolute path to the public key
 ![Public Key](image-5.png)
-* The absolute path should be `/home/l9zhu@ieng6-202/.ssh/id_rsa.pub`
+* The absolute path should be `/home/l9zhu@ieng6-202/.ssh/authorized_keys`
 
 ### login without password
 ![Alt text](image-3.png)
