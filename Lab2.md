@@ -5,7 +5,7 @@
 ![First /add-message](image.png)
 Which methods in your code are called?
 
-* The handleRequest method of the Handler class is called, including `url.getPath()`, `url.getQuery()`, `query.startsWith("s=")`, `query.contains("user=")`, `query.split("&")[0].split("=")[1]`, `query.split("=")[2]`, `String.format("%s : %s\n", user, message)`.
+* The handleRequest method of the Handler class is called, with the argument of `new URI("https://localhost;4000/add-message?s=hello&user=Luna")`
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 The relevant arguments and values are: 
@@ -27,7 +27,7 @@ With the input `/add-message?s=hello&user=Luna`:
 ![Second /add-message](image-1.png)
 Which methods in your code are called?
 
-* Same as the code above, The `handleRequest` method of the Handler class is called.
+* Same as the code above, The `handleRequest` method of the Handler class is called, but this time with the argument `new URI("https://localhost;4000/add-message?s=This is the Second Message&user=Student2")`.
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
