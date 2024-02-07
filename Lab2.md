@@ -47,7 +47,7 @@ With the input `/add-message?s=This is the Second Message&user=Student2`:
 ## Part 2
 ### The absolute path to the private key
 ![Private key](image-6.png)
-* The absolute path should be `/home/zhulu/.ssh/id_rsa.pub`
+* The absolute path should be `/home/zhulu/.ssh/id_rsa`
 
 ### The absolute path to the public key
 ![Public Key](image-5.png)
