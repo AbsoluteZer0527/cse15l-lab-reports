@@ -1,8 +1,8 @@
 # Lab Report 2
 ## Part 1
-![Code](image-2.png)
+![Code](images/image-2.png)
 
-![First /add-message](image.png)
+![First /add-message](images/image.png)
 Which methods in your code are called?
 
 * The handleRequest method of the Handler class is called, with the argument of `new URI("https://localhost;4000/add-message?s=hello&user=Luna")`
@@ -24,7 +24,7 @@ With the input `/add-message?s=hello&user=Luna`:
 * `user`: "Luna"
 * `displayText`: "Luna : hello\n"
 
-![Second /add-message](image-1.png)
+![Second /add-message](images/image-1.png)
 Which methods in your code are called?
 
 * Same as the code above, The `handleRequest` method of the Handler class is called, but this time with the argument `new URI("https://localhost;4000/add-message?s=This is the Second Message&user=Student2")`.
@@ -46,15 +46,15 @@ With the input `/add-message?s=This is the Second Message&user=Student2`:
 
 ## Part 2
 ### The absolute path to the private key
-![Private key](image-6.png)
+![Private key](images/image-6.png)
 * The absolute path should be `/home/zhulu/.ssh/id_rsa`
 
 ### The absolute path to the public key
-![Public Key](image-5.png)
+![Public Key](images/image-5.png)
 * The absolute path should be `/home/l9zhu@ieng6-202/.ssh/authorized_keys`
 
 ### login without password
-![Alt text](image-3.png)
+![Alt text](images/image-3.png)
 
 ## Part 3
 
